@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int balance = 2_000_000_000;
-        int transfer = 500_000_000;
-        int total = balance + transfer;
-        System.out.println(total);
-    }}
+        int costTikets = 4_440;
+        int bonusMiles = 20;
+        int totalMiles = costTikets / bonusMiles;
+        System.out.println(totalMiles);
+    }
+}
